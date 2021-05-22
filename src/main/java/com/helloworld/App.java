@@ -54,6 +54,8 @@ public class App {
      //access item in array 
      twoDimentional[0][0] = 1;
      System.out.println(Arrays.deepToString(twoDimentional));
+     //variable constant FINAL type is contstant use capital name convention for nameing constant
+     final float PI = 3.14F;
 
 
     }
