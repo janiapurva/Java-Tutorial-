@@ -1,5 +1,6 @@
 package com.helloworld;
 
+import java.util.Arrays;
 import java.util.Date;
 
 
@@ -42,6 +43,18 @@ public class App {
         numbers[0] = 1;
         numbers[1] = 2;
         numbers[2] = 3;
+        //you can print array it always print adress of memory in system
+        //inorder to print you have to use class Array
+        System.out.println(Arrays.toString(numbers));
+
+        //another way to write array
+        int[] anotherway = {1,3,5,6,7};
+        //multidimentiaonal array
+     int[][]twoDimentional = new int[2][4];
+     //access item in array 
+     twoDimentional[0][0] = 1;
+     System.out.println(Arrays.deepToString(twoDimentional));
+
 
     }
 }
